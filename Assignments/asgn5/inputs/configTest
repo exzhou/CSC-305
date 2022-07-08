@@ -1,0 +1,5 @@
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: Harris & ( washingtonpost | usatoday )
