@@ -1,0 +1,14 @@
+FILE_SOURCE_TYPE=1
+URL_SOURCE_TYPE=2
+NAME=3
+LOCATION=4
+ADDRESS=5
+NEWLINE=6
+WS=7
+COMMENT=8
+LINE=9
+'file'=1
+'url'=2
+'name:'=3
+'location:'=4
+'address:'=5

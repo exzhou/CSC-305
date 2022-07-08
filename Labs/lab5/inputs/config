@@ -1,0 +1,17 @@
+
+file
+name: First One
+location: inputs/example.json
+
+
+url
+name: Second One
+address: http://newsapi.org/v2/everything?q=bitcoin&from=2020-09-09&sortBy=publishedAt&apiKey={NEWS_API_KEY}
+
+url
+name: 3rd One
+address: http://newsapi.org/v2/everything?q=bitcoin&from=2020-09-09&sortBy=publishedAt&apiKey={NEWS_API_KEY}
+
+url
+name: Fourth One
+address: http://newsapi.org/v2/everything?q=bitcoin&from=2020-09-09&sortBy=publishedAt&apiKey={NEWS_API_KEY}
