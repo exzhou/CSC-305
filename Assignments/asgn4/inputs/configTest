@@ -1,0 +1,5 @@
+url
+name: Simple Url
+format: simple
+address: http://users.csc.calpoly.edu/~akeen/courses/csc305/simple.json
+filter:

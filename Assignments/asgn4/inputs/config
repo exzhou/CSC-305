@@ -1,0 +1,77 @@
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter:
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: Thereisnowaythiswordexistswithinthearticle
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: Harris
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: 2021
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: Harris & usatoday
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: Harris | usatoday
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+filter: Harris & (washingtonpost | usatoday)
+
+file
+name: Simple Fixed
+format: simple
+location: inputs/simple.json
+filter:
+
+file
+name: Simple Fixed
+format: simple
+location: inputs/simple.json
+filter: Thereisnowaythiswordexistswithinthearticle
+
+file
+name: Simple Fixed
+format: simple
+location: inputs/simple.json
+filter: null & (Thereisnowaythiswordexistswithinthearticle | Assignment)
+
+url
+name: Simple Url
+format: simple
+address: http://users.csc.calpoly.edu/~akeen/courses/csc305/simple.json
+filter:
+
+url
+name: Simple Url
+format: simple
+address: http://users.csc.calpoly.edu/~akeen/courses/csc305/simple.json
+filter: Thereisnowaythiswordexistswithinthearticle
+
+url
+name: Simple Url
+format: simple
+address: http://users.csc.calpoly.edu/~akeen/courses/csc305/simple.json
+filter: Simple & (Thereisnowaythiswordexistswithinthearticle | Alternate)
