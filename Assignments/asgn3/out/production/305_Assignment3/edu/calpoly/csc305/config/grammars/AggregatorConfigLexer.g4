@@ -1,0 +1,18 @@
+lexer grammar AggregatorConfigLexer;
+
+FILE_SOURCE_TYPE    : 'file' ;
+URL_SOURCE_TYPE     : 'url' ;
+FORMAT              : 'format:' ;
+NEWSAPI_FORMAT      : 'newsapi' ;
+SIMPLE_FORMAT       : 'simple' ;
+NAME                : 'name:' -> pushMode(lineMode) ;
+LOCATION            : 'location:' -> pushMode(lineMode) ;
+ADDRESS             : 'address:' -> pushMode(lineMode) ;
+NEWLINE             : '\r'? '\n' | '\r' ;
+WS                  :  [ \t]+ -> skip ;
+COMMENT             :  '#' .*? '\n' -> skip ;
+
+
+mode lineMode;
+
+LINE           : ~[\r\n]+ -> popMode ;

@@ -1,0 +1,22 @@
+
+file
+name: NewsAPI Fixed
+format: newsapi
+location: inputs/newsapi.json
+
+
+url
+name: NewsAPI Headlines (Live)
+format: newsapi
+address: http://newsapi.org/v2/top-headlines?country=us&apiKey=1be5bf93171246ec819ea670e3e5528c
+
+
+file
+name: Simple Fixed
+format: simple
+location: inputs/simple.json
+
+url
+name: Simple Url
+format: simple
+address: http://users.csc.calpoly.edu/~akeen/courses/csc305/simple.json
